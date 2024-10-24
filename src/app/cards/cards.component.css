@@ -1,0 +1,24 @@
+.card{
+  justify-content: center;
+  text-align: center;
+  margin: 0px 20px;
+  padding: 1rem 0rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card:hover{
+  transform: scale(1.03);
+  transition: transform 420ms ease-in-out;
+}
+img{
+  object-fit: contain;
+  max-width: 100%;
+}
+h1{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+h3{
+  font-size: .8rem;
+  font-weight: 400;
+  color: #777;
+}

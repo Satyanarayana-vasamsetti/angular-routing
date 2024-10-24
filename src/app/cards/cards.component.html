@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" *ngFor="let c of cards">
+      <div class="card">
+        <div class="card-img">
+          <img [src]="c.src" [alt]="c.alt" height="400px">
+          <h1>{{c.title}}</h1>
+          <div class="card-desc">
+            <h3><span>{{c.price}}</span></h3>
+            <button class="btn btn-outline-success" id="order">
+              {{c.button}}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
